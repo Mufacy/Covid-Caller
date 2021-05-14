@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\SmsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,8 +14,10 @@ use App\Http\Controllers\ProductsController;
 |
 */
 
-Route::get('/', function() {
-    return view('home');
-});
+// Route::get('/', function() {
+//     return view('home');
+// });
 
-Route::get('/products', [ProductsController::class, 'index']);
+///Route::get('/products', [ProductsController::class, 'index']);
+
+Route::get('/calls', [SmsController::class, 'index']);
