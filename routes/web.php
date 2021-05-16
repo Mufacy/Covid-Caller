@@ -20,4 +20,9 @@ use App\Http\Controllers\SmsController;
 
 ///Route::get('/products', [ProductsController::class, 'index']);
 
+
+Route::get('/', function() {
+    return view('home');
+});
+
 Route::get('/calls', [SmsController::class, 'index']);

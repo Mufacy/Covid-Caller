@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is our new homepage</h1>
+    <h1>Covid-19 Emergency contacts validator</h1>
+    <input type="button" value="Resources"/>
+    <input type="button" value="sub-distrct"/>
+    <input type="button" value="Active callers"/>
+    <input type="button" value="Active Tweets"/>
 </body>
 </html>
